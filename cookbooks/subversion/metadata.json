@@ -1,0 +1,40 @@
+{
+  "dependencies": {
+    "windows": ">= 0.0.0",
+    "apache2": ">= 0.0.0"
+  },
+  "name": "subversion",
+  "maintainer_email": "cookbooks@opscode.com",
+  "attributes": {
+  },
+  "license": "Apache 2.0",
+  "suggestions": {
+  },
+  "platforms": {
+    "debian": ">= 0.0.0",
+    "windows": ">= 0.0.0",
+    "fedora": ">= 0.0.0",
+    "centos": ">= 0.0.0",
+    "ubuntu": ">= 0.0.0",
+    "redhat": ">= 0.0.0"
+  },
+  "maintainer": "Opscode, Inc.",
+  "long_description": "",
+  "version": "1.0.0",
+  "recommendations": {
+  },
+  "recipes": {
+    "subversion::client": "Subversion Client installs subversion and some extra svn libs",
+    "subversion": "Includes the client recipe.",
+    "subversion::server": "Subversion Server (Apache2 mod_dav_svn)"
+  },
+  "groupings": {
+  },
+  "conflicting": {
+  },
+  "replacing": {
+  },
+  "description": "Installs subversion",
+  "providing": {
+  }
+}

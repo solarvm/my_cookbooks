@@ -1,0 +1,37 @@
+{
+  "dependencies": {
+  },
+  "name": "emacs",
+  "maintainer_email": "cookbooks@opscode.com",
+  "attributes": {
+  },
+  "license": "Apache 2.0",
+  "suggestions": {
+  },
+  "platforms": {
+    "scientific": ">= 0.0.0",
+    "debian": ">= 0.0.0",
+    "fedora": ">= 0.0.0",
+    "centos": ">= 0.0.0",
+    "freebsd": ">= 0.0.0",
+    "ubuntu": ">= 0.0.0",
+    "redhat": ">= 0.0.0"
+  },
+  "maintainer": "Opscode, Inc.",
+  "long_description": "",
+  "version": "0.8.2",
+  "recommendations": {
+  },
+  "recipes": {
+    "emacs": "Installs Emacs"
+  },
+  "groupings": {
+  },
+  "conflicting": {
+  },
+  "replacing": {
+  },
+  "description": "Installs emacs",
+  "providing": {
+  }
+}

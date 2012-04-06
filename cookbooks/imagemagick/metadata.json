@@ -1,0 +1,37 @@
+{
+  "dependencies": {
+  },
+  "name": "imagemagick",
+  "maintainer_email": "cookbooks@opscode.com",
+  "attributes": {
+  },
+  "license": "Apache 2.0",
+  "suggestions": {
+  },
+  "platforms": {
+    "rhel": ">= 0.0.0",
+    "debian": ">= 0.0.0",
+    "centos": ">= 0.0.0",
+    "fedora": ">= 0.0.0",
+    "ubuntu": ">= 0.0.0"
+  },
+  "maintainer": "Opscode, Inc.",
+  "long_description": "Description\n===========\n\nInstalls ImageMagick and optionally Rmagick (RubyGem).\n\nRequirements\n============\n\n## Platform:\n\nTested on:\n\n* Ubuntu (10.04)\n* RHEL (6.1, 5.7)\n\nUsage\n=====\n\nTo install just ImageMagick,\n\n  include_recipe \"imagemagick\"\n\nIn your own recipe/cookbook. To install the development libraries,\n\n  include_recipe \"imagemagick::devel\"\n\nTo install the RubyGem rmagick,\n\n  include_recipe \"imagemagick::rmagick\"\n\nWhich will install imagemagick, as well as the development libraries for imagemagick (so rmagick can be built).\n\nLicense and Author\n==================\n\nAuthor:: Joshua Timberman (<joshua@opscode.com>)\n\nCopyright:: 2009, Opscode, Inc\n\nLicensed under the Apache License, Version 2.0 (the \"License\");\nyou may not use this file except in compliance with the License.\nYou may obtain a copy of the License at\n\n    http://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software\ndistributed under the License is distributed on an \"AS IS\" BASIS,\nWITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\nSee the License for the specific language governing permissions and\nlimitations under the License.\n",
+  "version": "0.2.2",
+  "recommendations": {
+  },
+  "recipes": {
+    "imagemagick::rmagick": "Installs rmagick gem",
+    "imagemagick::devel": "Installs imagemagick development libraries",
+    "imagemagick": "Installs imagemagick package"
+  },
+  "groupings": {
+  },
+  "conflicting": {
+  },
+  "replacing": {
+  },
+  "description": "Installs/Configures imagemagick",
+  "providing": {
+  }
+}

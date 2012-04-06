@@ -1,0 +1,6 @@
+{
+    "ipaddress": "10.0.18.88",
+    "run_list": [
+        "recipe[sunjava]"
+    ]
+}

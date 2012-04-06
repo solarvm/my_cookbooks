@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+  },
+  "name": "tomcat7",
+  "maintainer_email": "solarvm@gmail.com",
+  "attributes": {
+  },
+  "license": "AGPL",
+  "suggestions": {
+  },
+  "platforms": {
+  },
+  "maintainer": "Vladislav Mikhaylov",
+  "long_description": "= DESCRIPTION:\nInstalls Tomcat 7.0.26 using Apache's binaries downloaded from official website.\n= REQUIREMENTS:\nRequire JRE\n= ATTRIBUTES:\ntc7target = \"/usr/local\" - sets the prefix\n##\n[:tomcat7][:version] # Tomcat's version\n[:tomcat7][:user] # Tomcat user \n[:tomcat7][:group] # Tomcat group\n[:tomcat7][:target] # prefix\n##\n[:tomcat7][:port] # HTTP port\n[:tomcat7][:ssl_port] # SSLed port\n[:tomcat7][:ajp_port] # AJP port\n[:tomcat7][:java_options] # JAVA_OPTS for daemon init\n[:tomcat7][:use_security_manager]  # SecManager\n##\n[:tomcat7][:home] # CATALINA HOME\n[:tomcat7][:base] # BASE folder\n[:tomcat7][:config_dir] # Tomcat config folder\n[:tomcat7][:log_dir] # Logfile folder\n= USAGE:\n\n",
+  "version": "0.0.2",
+  "recommendations": {
+  },
+  "recipes": {
+  },
+  "groupings": {
+  },
+  "conflicting": {
+  },
+  "replacing": {
+  },
+  "description": "Installs/Configures tomcat7 binary distrib",
+  "providing": {
+  }
+}

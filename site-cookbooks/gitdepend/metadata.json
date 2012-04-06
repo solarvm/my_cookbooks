@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+  },
+  "name": "gitdepend",
+  "maintainer_email": "vladislav.mikhailov@gdev.biz",
+  "attributes": {
+  },
+  "license": "Apache 2.0",
+  "suggestions": {
+  },
+  "platforms": {
+  },
+  "maintainer": "Vladislav Mikhaylov",
+  "long_description": "Description\n===========\nInstalls curl, curl-devel, tclcurl&libcurl-openssl-dev libssl-dev\n\nRequirements\n============\nNone\n",
+  "version": "0.7.0",
+  "recommendations": {
+  },
+  "recipes": {
+    "gitdepend": "Installs git build dependencies"
+  },
+  "groupings": {
+  },
+  "conflicting": {
+  },
+  "replacing": {
+  },
+  "description": "Installs curl, curl-devel and tclcurl(for debian/ubuntu), libssl-dev for git build ",
+  "providing": {
+  }
+}

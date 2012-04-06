@@ -1,0 +1,8 @@
+compat-libstdc: tested, works fine.
+git: tested, works fine.
+gitdepend: tested, works fine.
+ossec-client: not complete. requried more info from OSSEC server admin
+ssh_port_rebase: tested, works fine
+sunjava: tested, works fine
+unixODBC: tested, works fine
+tomcat7: tested, works fine

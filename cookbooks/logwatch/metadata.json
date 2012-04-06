@@ -1,0 +1,35 @@
+{
+  "dependencies": {
+    "perl": ">= 0.0.0"
+  },
+  "name": "logwatch",
+  "maintainer_email": "cookbooks@opscode.com",
+  "attributes": {
+  },
+  "license": "Apache 2.0",
+  "suggestions": {
+  },
+  "platforms": {
+    "debian": ">= 0.0.0",
+    "centos": ">= 0.0.0",
+    "ubuntu": ">= 0.0.0",
+    "redhat": ">= 0.0.0"
+  },
+  "maintainer": "Opscode, Inc.",
+  "long_description": "Description\n===========\n\nInstalls logwatch.\n\nRequirements\n============\n\n## Platform:\n\n* Debian/Ubuntu\n* RHEL/CentOS\n\n## Cookbooks:\n\n* perl\n\nUsage\n=====\n\nEnsures that perl is installed to be used with logwatch and then\ninstalls logwatch.\n\nLicense and Author\n==================\n\nAuthor:: Joshua Timberman <joshua@opscode.com>\n\nCopyright:: 2009, Opscode, Inc\n\nLicensed under the Apache License, Version 2.0 (the \"License\");\nyou may not use this file except in compliance with the License.\nYou may obtain a copy of the License at\n\n    http://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software\ndistributed under the License is distributed on an \"AS IS\" BASIS,\nWITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\nSee the License for the specific language governing permissions and\nlimitations under the License.\n",
+  "version": "0.1.1",
+  "recommendations": {
+  },
+  "recipes": {
+    "logwatch": "Installs logwatch"
+  },
+  "groupings": {
+  },
+  "conflicting": {
+  },
+  "replacing": {
+  },
+  "description": "Installs logwatch, a nice log analyzer",
+  "providing": {
+  }
+}

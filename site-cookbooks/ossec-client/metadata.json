@@ -1,0 +1,34 @@
+{
+  "dependencies": {
+  },
+  "name": "ossec-client",
+  "maintainer_email": "vladislav.mikhailov@gdev.biz",
+  "attributes": {
+  },
+  "license": "Apache 2.0",
+  "suggestions": {
+  },
+  "platforms": {
+    "fedora": ">= 0.0.0",
+    "centos": ">= 0.0.0",
+    "amazon": ">= 0.0.0",
+    "redhat": ">= 0.0.0"
+  },
+  "maintainer": "Vladislav Mikhaylov",
+  "long_description": "Description\n===========\nInstalls OSSEC HIDS client from Atomic yum repo.\n\nRequirements\n============\nFor RH-based platforms only\n",
+  "version": "0.7.0",
+  "recommendations": {
+  },
+  "recipes": {
+    "ossec-client": "Installs ossec-client from atomic repo"
+  },
+  "groupings": {
+  },
+  "conflicting": {
+  },
+  "replacing": {
+  },
+  "description": "Installs libs for Oracle client compatibilty",
+  "providing": {
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "dependencies": {
+  },
+  "name": "ssh_port_rebase",
+  "maintainer_email": "vladislav.mikhailov@gdev.biz",
+  "attributes": {
+  },
+  "license": "Apache 2.0",
+  "suggestions": {
+  },
+  "platforms": {
+    "debian": ">= 0.0.0",
+    "fedora": ">= 0.0.0",
+    "centos": ">= 0.0.0",
+    "amazon": ">= 0.0.0",
+    "ubuntu": ">= 0.0.0",
+    "redhat": ">= 0.0.0"
+  },
+  "maintainer": "Vladislav Mikhaylov",
+  "long_description": "Description\n===========\nProvides updated sshd_config using custom port for the daemon to listen to.\nUpgrades ssh server package\nRequirements\n============\nAny OpenSSH daemon preinstalled\n\n",
+  "version": "0.7.0",
+  "recommendations": {
+  },
+  "recipes": {
+    "ssh_port_rebase::ssh_upgrade": "upgrades ssh-server",
+    "ssh_port_rebase": "Updates sshd config with generated from template"
+  },
+  "groupings": {
+  },
+  "conflicting": {
+  },
+  "replacing": {
+  },
+  "description": "Updates sshd_config makind sshd listen on different port",
+  "providing": {
+  }
+}

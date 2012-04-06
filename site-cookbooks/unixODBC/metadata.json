@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+  },
+  "name": "unixODBC",
+  "maintainer_email": "vladislav.mikhailov@gdev.biz",
+  "attributes": {
+  },
+  "license": "Apache 2.0",
+  "suggestions": {
+  },
+  "platforms": {
+  },
+  "maintainer": "Vladislav Mikhaylov",
+  "long_description": "Description\n===========\nInstalls UnixODBC, libs and header files\n\nRequirements\n============\nNone\n",
+  "version": "0.7.0",
+  "recommendations": {
+  },
+  "recipes": {
+    "unixODBC": "Installs unixODBC packages"
+  },
+  "groupings": {
+  },
+  "conflicting": {
+  },
+  "replacing": {
+  },
+  "description": "Installs UnixODBC for Oracle client compatibilty",
+  "providing": {
+  }
+}

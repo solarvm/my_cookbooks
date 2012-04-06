@@ -1,0 +1,2 @@
+# Any established connection is money
+-A FWR -p tcp -m multiport -m state --ports <%= node[:iptables][:ports_open] %> --state NEW,RELATED,ESTABLISHED -j ACCEPT

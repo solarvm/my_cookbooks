@@ -1,0 +1,6 @@
+{
+    "ipaddress": "10.0.18.219",
+    "run_list": [
+        "recipe[iptables]"
+    ]
+}

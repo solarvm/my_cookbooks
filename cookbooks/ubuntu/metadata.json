@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "apt": ">= 0.0.0"
+  },
+  "name": "ubuntu",
+  "maintainer_email": "cookbooks@opscode.com",
+  "attributes": {
+  },
+  "license": "Apache 2.0",
+  "suggestions": {
+  },
+  "platforms": {
+    "ubuntu": ">= 0.0.0"
+  },
+  "maintainer": "Opscode, Inc.",
+  "long_description": "",
+  "version": "0.99.0",
+  "recommendations": {
+  },
+  "recipes": {
+    "ubuntu": "Sets up sources for the node's ubuntu release"
+  },
+  "groupings": {
+  },
+  "conflicting": {
+  },
+  "replacing": {
+  },
+  "description": "Sets up sources for ubuntu",
+  "providing": {
+  }
+}
